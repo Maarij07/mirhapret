@@ -29,6 +29,8 @@ export function ProductDetail({
 }: ProductDetailProps) {
   const [quantity, setQuantity] = useState(1);
   const [selectedVariants, setSelectedVariants] = useState<SelectedVariants>({});
+  const [selectedSize, setSelectedSize] = useState<string>("");
+  const [sizeError, setSizeError] = useState(false);
   const [addedToCart, setAddedToCart] = useState(false);
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     details: true,
@@ -43,6 +45,12 @@ export function ProductDetail({
   }, []);
 
   const handleAddToCart = useCallback(() => {
+    // Check if size is required and selected
+    if (product.variants.length > 0 && !selectedSize) {
+      setSizeError(true);
+      return;
+    }
+
     const primaryImage = product.images?.[0];
     if (!primaryImage) return;
 
@@ -54,12 +62,12 @@ export function ProductDetail({
       currency: product.currency,
       image: primaryImage.url,
       quantity,
-      variants: selectedVariants,
+      variants: selectedSize ? { size: selectedSize } : selectedVariants,
     });
 
     setAddedToCart(true);
     setTimeout(() => setAddedToCart(false), 2000);
-  }, [product, quantity, selectedVariants, addToCart]);
+  }, [product, quantity, selectedSize, selectedVariants, addToCart]);
 
   const toggleSection = (section: string) => {
     setExpandedSections(prev => ({
@@ -86,10 +94,7 @@ export function ProductDetail({
     {
       label: "Fabric Details",
       content: [
-        "Top Fabric: " + (product.fabricDetails?.top || "Premium Cotton"),
-        "Bottom Fabric: " + (product.fabricDetails?.bottom || "Breathable Blend"),
-        "Dupatta Fabric: " + (product.fabricDetails?.dupatta || "Silk Blend"),
-        "Material: " + (product.fabricDetails?.material || "Natural Fibers"),
+        "Material: " + (product.fabricComposition || "Premium Natural Fibers"),
       ]
     }
   ];
@@ -97,7 +102,7 @@ export function ProductDetail({
   const careContent: DetailsSection[] = [
     {
       label: "Care Instructions",
-      content: [
+      content: product.careInstructions || [
         "Dry clean recommended for best results",
         "Keep away from direct sunlight when storing",
         "Use mild detergent if hand washing",
@@ -180,12 +185,25 @@ export function ProductDetail({
                     {["XS", "S", "M", "L", "XL", "XXL"].map((size) => (
                       <button
                         key={size}
-                        className="w-10 h-10 border border-gray-300 hover:border-black transition-colors text-xs font-medium text-black flex items-center justify-center"
+                        onClick={() => {
+                          setSelectedSize(size);
+                          setSizeError(false);
+                        }}
+                        className={`w-10 h-10 border-2 transition-colors text-xs font-medium text-black flex items-center justify-center ${
+                          selectedSize === size
+                            ? "border-black bg-black text-white"
+                            : sizeError && !selectedSize
+                            ? "border-red-500 bg-red-50"
+                            : "border-gray-300 hover:border-black"
+                        }`}
                       >
                         {size}
                       </button>
                     ))}
                   </div>
+                  {sizeError && !selectedSize && (
+                    <p className="text-xs text-red-500 mt-2">Select A Size</p>
+                  )}
                 </div>
               )}
 
@@ -227,7 +245,7 @@ export function ProductDetail({
                   </button>
                   {expandedSections.details && (
                     <div className="pb-3 text-xs text-gray-600 space-y-2 px-0">
-                      {detailsContent[0].content.map((item, idx) => {
+                      {detailsContent[0] && detailsContent[0].content.map((item, idx) => {
                         const [label, value] = item.split(": ");
                         return (
                           <p key={idx}>
@@ -252,7 +270,7 @@ export function ProductDetail({
                   </button>
                   {expandedSections.care && (
                     <div className="pb-3 text-xs text-gray-600 space-y-2 px-0">
-                      {careContent[0].content.map((item, idx) => (
+                      {careContent[0] && careContent[0].content.map((item, idx) => (
                         <p key={idx}>{item}</p>
                       ))}
                     </div>

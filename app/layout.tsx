@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { FloatingChatbot } from "@/components/floating-chatbot";
+import { UserProvider } from "@/lib/context/user-context";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -23,7 +25,10 @@ export default function RootLayout({
       <body
         className={`${inter.variable} font-sans antialiased`}
       >
-        {children}
+        <UserProvider>
+          {children}
+          <FloatingChatbot />
+        </UserProvider>
       </body>
     </html>
   );

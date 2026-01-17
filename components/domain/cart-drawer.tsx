@@ -60,8 +60,7 @@ export function CartDrawer() {
       <SheetTrigger asChild>
         <button
           className="relative p-2 hover:bg-gray-50 transition-colors"
-          aria-label="Shopping cart"
-          aria-badge={itemCount > 0 ? itemCount : undefined}
+          aria-label={itemCount > 0 ? `Shopping cart with ${itemCount} item${itemCount !== 1 ? 's' : ''}` : "Shopping cart"}
         >
           <svg
             className="w-6 h-6 text-black"

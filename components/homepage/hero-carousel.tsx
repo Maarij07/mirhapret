@@ -101,21 +101,25 @@ export function HeroCarousel() {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-4 md:px-8">
         <div className="max-w-3xl text-center space-y-6">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-white">
-            {currentSlide.title}
-          </h1>
-          <p className="text-lg md:text-xl text-gray-200 font-light">
-            {currentSlide.subtitle}
-          </p>
-          <div className="pt-4">
-            <Button
-              asChild
-              size="lg"
-              className="bg-white text-black hover:bg-gray-100 border-0 px-8 py-6 text-sm font-medium tracking-wide"
-            >
-              <Link href={currentSlide.href}>{currentSlide.cta}</Link>
-            </Button>
-          </div>
+          {slides[currentIndex] && (
+            <>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-white">
+                {slides[currentIndex].title}
+              </h1>
+              <p className="text-lg md:text-xl text-gray-200 font-light">
+                {slides[currentIndex].subtitle}
+              </p>
+              <div className="pt-4">
+                <Button
+                  asChild
+                  size="lg"
+                  className="bg-white text-black hover:bg-gray-100 border-0 px-8 py-6 text-sm font-medium tracking-wide"
+                >
+                  <Link href={slides[currentIndex].href}>{slides[currentIndex].cta}</Link>
+                </Button>
+              </div>
+            </>
+          )}
         </div>
       </div>
 

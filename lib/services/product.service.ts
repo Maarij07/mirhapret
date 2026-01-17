@@ -63,3 +63,8 @@ export async function getProductsByCollection(
   );
   return limit ? filtered.slice(0, limit) : filtered;
 }
+
+export async function getAllProducts(): Promise<Product[]> {
+  await new Promise((resolve) => setTimeout(resolve, 300));
+  return Object.values(mockProducts);
+}

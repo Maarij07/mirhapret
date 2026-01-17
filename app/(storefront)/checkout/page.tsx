@@ -173,10 +173,43 @@ export default function CheckoutPage() {
   const handlePlaceOrder = async () => {
     setIsProcessing(true);
     await new Promise((resolve) => setTimeout(resolve, 2000));
+
+    // Generate order ID
+    const orderId = `MIR-${Date.now().toString().slice(-6).toUpperCase()}`;
+
+    // Prepare order data
+    const orderData = {
+      orderId,
+      phone: formData.phone,
+      email: formData.email || undefined,
+      firstName: formData.firstName,
+      lastName: formData.lastName,
+      address: formData.address,
+      city: formData.city,
+      items: items.map((item) => ({
+        id: item.productId,
+        name: item.name,
+        image: item.image,
+        price: item.price,
+        quantity: item.quantity,
+        variants: item.variants,
+      })),
+      totalPrice,
+      shippingCost,
+      taxAmount: 587,
+      finalTotal: totalPrice + shippingCost,
+      orderDate: new Date().toLocaleDateString(),
+      estimatedDelivery: "2-3 business days",
+      paymentMethod: "cod",
+    };
+
+    // Store order data in localStorage
+    localStorage.setItem("lastOrder", JSON.stringify(orderData));
+
     clearCart();
     setIsProcessing(false);
     // Redirect to order confirmation
-    window.location.href = "/";
+    window.location.href = "/checkout/confirmation";
   };
 
   return (
