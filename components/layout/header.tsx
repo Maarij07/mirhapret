@@ -1,69 +1,64 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { ShoppingCart, Menu, User } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { CartDrawer } from "@/components/domain/cart-drawer";
+import { User } from "lucide-react";
+
+const categories = [
+  { name: "Pret", href: "/category/pret" },
+  { name: "Desire", href: "/category/desire" },
+  { name: "Octa-West 2026", href: "/category/octa-west-2026" },
+];
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white dark:bg-gray-950/95 backdrop-blur">
-      <div className="container flex h-16 items-center justify-between px-4 md:px-6">
-        {/* Brand Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold text-black dark:text-white">mirhapret</span>
-        </Link>
-
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-8">
-          <Link href="/pret" className="text-sm font-medium text-black dark:text-white transition-colors hover:text-gray-900 dark:hover:text-gray-50">
-            Pret
+    <>
+      {/* Main Header */}
+      <header className="sticky top-0 z-50 w-full border-b bg-white dark:bg-gray-950/95 backdrop-blur">
+        <div className="container flex h-16 items-center justify-between px-4 md:px-6">
+          {/* Brand Logo */}
+          <Link href="/" className="flex items-center gap-2">
+            <span className="text-xl font-bold text-black dark:text-white">mirhapret</span>
           </Link>
-          <Link href="/desire" className="text-sm font-medium text-black dark:text-white transition-colors hover:text-gray-900 dark:hover:text-gray-50">
-            Desire
-          </Link>
-          <Link href="/octa-west-2026" className="text-sm font-medium text-black dark:text-white transition-colors hover:text-gray-900 dark:hover:text-gray-50">
-            Octa-West 2026
-          </Link>
-        </nav>
 
-        {/* Right Icons */}
-        <div className="flex items-center gap-4">
-          <Button variant="ghost" size="icon" className="relative text-black dark:text-white">
-            <ShoppingCart className="h-5 w-5" />
-            <span className="sr-only">Cart</span>
-          </Button>
-          
-          <Button variant="ghost" size="icon" className="relative text-black dark:text-white">
-            <User className="h-5 w-5" />
-            <span className="sr-only">Account</span>
-          </Button>
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center gap-8">
+            {categories.map((category) => (
+              <Link
+                key={category.href}
+                href={category.href}
+                className="text-sm font-medium text-black dark:text-white transition-colors hover:text-gray-900 dark:hover:text-gray-50"
+              >
+                {category.name}
+              </Link>
+            ))}
+          </nav>
 
-          {/* Mobile Menu */}
-          <Sheet>
-            <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className="md:hidden">
-                <Menu className="h-5 w-5" />
-                <span className="sr-only">Toggle menu</span>
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right">
-              <nav className="flex flex-col gap-4 mt-8">
-                <Link href="/pret" className="text-sm font-medium">
-                  Pret
-                </Link>
-                <Link href="/desire" className="text-sm font-medium">
-                  Desire
-                </Link>
-                <Link href="/octa-west-2026" className="text-sm font-medium">
-                  Octa-West 2026
-                </Link>
-              </nav>
-            </SheetContent>
-          </Sheet>
+          {/* Right Icons */}
+          <div className="flex items-center gap-4">
+            <CartDrawer />
+            
+            <button className="p-2 hover:bg-gray-50 transition-colors" aria-label="Account">
+              <User className="h-5 w-5 text-black" />
+            </button>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+
+      {/* Mobile Category Bar */}
+      <nav className="md:hidden sticky top-16 z-40 border-b bg-white dark:bg-gray-950/95 backdrop-blur">
+        <div className="container flex items-center gap-4 px-4 overflow-x-auto">
+          {categories.map((category) => (
+            <Link
+              key={category.href}
+              href={category.href}
+              className="py-3 px-1 text-xs font-medium text-black dark:text-white whitespace-nowrap transition-colors hover:text-gray-600 border-b-2 border-transparent hover:border-black"
+            >
+              {category.name}
+            </Link>
+          ))}
+        </div>
+      </nav>
+    </>
   );
 }

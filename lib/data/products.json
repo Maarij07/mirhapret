@@ -1,0 +1,1828 @@
+[
+  {
+    "id": "1",
+    "name": "Minimalist Blazer",
+    "price": 24999,
+    "currency": "PKR",
+    "description": "Tailored blazer in pure linen",
+    "longDescription": "A timeless blazer crafted from premium linen. The clean lines and minimal detailing allow the fabric to speak. Perfect for layering or wearing alone, this piece moves with intention and purpose.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Minimalist Blazer - Front view"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Minimalist Blazer - Detail view"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Pure Linen",
+    "careInstructions": ["Hand wash or gentle machine wash", "Lay flat to dry", "Iron on low heat if needed"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "2",
+    "name": "Essential Trench",
+    "price": 32999,
+    "currency": "PKR",
+    "description": "Classic trench in cotton twill",
+    "longDescription": "A wardrobe essential. This trench is designed for layering and movement, crafted from sturdy cotton twill. The neutral tone works with everything.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1539533057440-7814a65d4969?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Essential Trench - Front view"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Cotton Twill",
+    "careInstructions": ["Machine wash warm", "Tumble dry medium", "Iron as needed"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "3",
+    "name": "Silk Evening Gown",
+    "price": 49999,
+    "currency": "PKR",
+    "description": "Luxurious silk gown for special occasions",
+    "longDescription": "Crafted from premium silk charmeuse, this gown drapes with intention. The understated elegance speaks volumes. Perfect for evenings that demand presence and grace.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1595777707802-c57702a40c0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Silk Evening Gown - Front view"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Silk Charmeuse",
+    "careInstructions": ["Dry clean only", "Handle with care", "Store in cool dry place"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "4",
+    "name": "Contemporary Shirt",
+    "price": 18999,
+    "currency": "PKR",
+    "description": "Modern cut shirt in premium cotton",
+    "longDescription": "A contemporary take on the classic shirt. Designed with clean lines and precise tailoring. Works for work or weekend.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1598877366746-a32402e53228?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Contemporary Shirt - Front"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Premium Cotton",
+    "careInstructions": ["Machine wash cool", "Gentle cycle", "Air dry"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "5",
+    "name": "Future Piece One",
+    "price": 35999,
+    "currency": "PKR",
+    "description": "Experimental design from 2026",
+    "longDescription": "A vision of tomorrow. This piece explores new silhouettes and proportions while maintaining our core philosophy of intentional design.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1595777707802-c57702a40c0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Future Piece One - Detail"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Blend of Natural Fibers",
+    "careInstructions": ["Gentle wash recommended", "Lay flat to dry"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "6",
+    "name": "Minimal Knit",
+    "price": 21999,
+    "currency": "PKR",
+    "description": "Essential knit in fine gauge",
+    "longDescription": "A wardrobe fundamental. Fine gauge knit that works alone or layered. Timeless in every sense.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1554568618-0f82f10fcf0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Minimal Knit - Front"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Merino Wool",
+    "careInstructions": ["Hand wash in cool water", "Lay flat to dry", "Do not tumble dry"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "7",
+    "name": "Elegant Saree",
+    "price": 42999,
+    "currency": "PKR",
+    "description": "Traditional saree with modern sensibility",
+    "longDescription": "Handwoven with intricate detailing, this saree celebrates traditional craftsmanship while maintaining contemporary appeal. Perfect for celebrations and special moments.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1606164185031-02c022fa47e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Elegant Saree - Draped"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Length",
+        "type": "size",
+        "options": [
+          { "label": "Standard", "value": "standard" },
+          { "label": "Petite", "value": "petite" },
+          { "label": "Tall", "value": "tall" }
+        ]
+      }
+    ],
+    "fabricComposition": "Silk Blend with Zari Work",
+    "careInstructions": ["Dry clean recommended", "Store wrapped in muslin", "Avoid direct sunlight"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "8",
+    "name": "Crisp Cotton Pants",
+    "price": 16999,
+    "currency": "PKR",
+    "description": "Tailored cotton pants for everyday wear",
+    "longDescription": "Perfectly proportioned cotton pants that work with everything. Clean tailoring and premium fabric ensure comfort and longevity.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1542272604-787c62d465d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Crisp Cotton Pants"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "28", "value": "28" },
+          { "label": "30", "value": "30" },
+          { "label": "32", "value": "32" },
+          { "label": "34", "value": "34" },
+          { "label": "36", "value": "36" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Premium Cotton",
+    "careInstructions": ["Machine wash cold", "Tumble dry low", "Iron as needed"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "9",
+    "name": "Embroidered Kurta",
+    "price": 28999,
+    "currency": "PKR",
+    "description": "Hand-embroidered kurta with traditional motifs",
+    "longDescription": "A beautiful fusion of tradition and modernity. Each piece features hand-embroidery that tells a story. Perfect for gatherings and celebrations.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Embroidered Kurta"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Cotton with Silk Embroidery",
+    "careInstructions": ["Hand wash gently", "Lay flat to dry", "Iron on reverse side"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "10",
+    "name": "Experimental Jacket",
+    "price": 45999,
+    "currency": "PKR",
+    "description": "Bold experimental outerwear piece",
+    "longDescription": "A statement piece from our Octa-West 2026 collection. Exploring unconventional silhouettes and construction techniques. For the bold and visionary.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1614008375830-b0d8e84e0b53?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Experimental Jacket"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "Technical Blend",
+    "careInstructions": ["Machine wash gentle", "Lay flat to dry", "Professional cleaning recommended for longevity"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "11",
+    "name": "Linen Vest",
+    "price": 14999,
+    "currency": "PKR",
+    "description": "Lightweight linen vest for layering",
+    "longDescription": "Perfect for warm weather layering. Made from breathable linen that softens with every wash. A versatile piece that works across seasons.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1594942821285-d0f6ce84e5b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Linen Vest"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Pure Linen",
+    "careInstructions": ["Hand wash", "Hang to dry", "Iron if needed"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "12",
+    "name": "Draped Evening Top",
+    "price": 31999,
+    "currency": "PKR",
+    "description": "Elegantly draped evening piece",
+    "longDescription": "Soft draped fabric that moves like water. Perfect for evening gatherings and special occasions. The subtle design lets you be the focus.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1573518433220-2b06d0f0c745?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Draped Evening Top"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Silk Blend",
+    "careInstructions": ["Dry clean recommended", "Hand wash delicate"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "13",
+    "name": "Geometric Shirt",
+    "price": 19999,
+    "currency": "PKR",
+    "description": "Structured geometric cut shirt",
+    "longDescription": "Precise geometric cuts create visual interest without visual noise. A modern take on the classic shirt.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Geometric Shirt"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Cotton",
+    "careInstructions": ["Machine wash warm", "Tumble dry medium"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "14",
+    "name": "Asymmetrical Dress",
+    "price": 44999,
+    "currency": "PKR",
+    "description": "Modern asymmetrical cut dress",
+    "longDescription": "A bold piece for those who appreciate unconventional design. The asymmetry is the statement. Part of Octa-West 2026 vision.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1567270671170-fdc10a5bf831?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Asymmetrical Dress"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Premium Blend",
+    "careInstructions": ["Gentle wash", "Lay flat to dry"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "15",
+    "name": "Classic White Tee",
+    "price": 7999,
+    "currency": "PKR",
+    "description": "Timeless white t-shirt",
+    "longDescription": "The foundation piece. Premium cotton that softens with age. Perfect white tee that works with everything.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Classic White Tee"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Organic Cotton",
+    "careInstructions": ["Machine wash warm", "Tumble dry"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "16",
+    "name": "Velvet Jacket",
+    "price": 52999,
+    "currency": "PKR",
+    "description": "Luxe velvet evening jacket",
+    "longDescription": "Sumptuous velvet in a timeless silhouette. Perfect for special occasions and evening wear. The texture speaks for itself.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Velvet Jacket"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Velvet",
+    "careInstructions": ["Dry clean only"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "17",
+    "name": "Maxi Skirt",
+    "price": 26999,
+    "currency": "PKR",
+    "description": "Flowing maxi skirt with movement",
+    "longDescription": "Designed for effortless movement. The flowing fabric drapes beautifully. Works for both casual and formal occasions.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1587863882854-4eb16b75e00b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Maxi Skirt"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "Linen Cotton Blend",
+    "careInstructions": ["Machine wash cold", "Hang to dry"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "18",
+    "name": "Beaded Dupatta",
+    "price": 15999,
+    "currency": "PKR",
+    "description": "Hand-beaded traditional dupatta",
+    "longDescription": "Delicate hand-beading on premium fabric. A versatile piece that elevates any outfit. Works with traditional or contemporary wear.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1604815584769-0a42e61c9d53?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Beaded Dupatta"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Style",
+        "type": "color",
+        "options": [
+          { "label": "Classic Black", "value": "black" },
+          { "label": "Elegant White", "value": "white" },
+          { "label": "Soft Gold", "value": "gold" }
+        ]
+      }
+    ],
+    "fabricComposition": "Cotton with Hand Beading",
+    "careInstructions": ["Hand wash gentle", "Air dry", "Iron delicate"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "19",
+    "name": "Oversized Shirt",
+    "price": 22999,
+    "currency": "PKR",
+    "description": "Relaxed oversized shirt",
+    "longDescription": "Intentionally oversized for comfort and style. Perfect for layering or wearing alone. Premium fabric that holds its shape.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1608231387042-ec4143a165cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Oversized Shirt"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Linen",
+    "careInstructions": ["Gentle machine wash", "Hang to dry", "Iron warm"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "20",
+    "name": "Structured Coat",
+    "price": 54999,
+    "currency": "PKR",
+    "description": "Bold structured winter coat",
+    "longDescription": "A statement outerwear piece with architectural cuts. The silhouette speaks volumes. Perfect for layering and making an impression.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Structured Coat"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Wool Blend",
+    "careInstructions": ["Dry clean recommended", "Professional care"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "21",
+    "name": "Fitted Black Pants",
+    "price": 18999,
+    "currency": "PKR",
+    "description": "Perfectly fitted black trousers",
+    "longDescription": "The essential black pants. Tailored to perfection with a flattering fit. Works for any occasion from office to dinner.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Fitted Black Pants"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "28", "value": "28" },
+          { "label": "30", "value": "30" },
+          { "label": "32", "value": "32" },
+          { "label": "34", "value": "34" },
+          { "label": "36", "value": "36" }
+        ]
+      }
+    ],
+    "fabricComposition": "Premium Cotton Blend",
+    "careInstructions": ["Machine wash cold", "Tumble dry low", "Iron as needed"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "22",
+    "name": "Silk Camisole",
+    "price": 12999,
+    "currency": "PKR",
+    "description": "Luxe silk camisole",
+    "longDescription": "Delicate silk camisole perfect for layering or wearing alone. The soft sheen catches light beautifully.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1595607774223-ef52624120d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Silk Camisole"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Silk",
+    "careInstructions": ["Hand wash delicate", "Air dry", "Iron on low if needed"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "23",
+    "name": "Wool Sweater",
+    "price": 27999,
+    "currency": "PKR",
+    "description": "Premium wool pullover sweater",
+    "longDescription": "Timeless wool sweater with the softest feel. Perfect for layering or as a statement piece. Designed to last a lifetime.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Wool Sweater"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Virgin Wool",
+    "careInstructions": ["Hand wash cold water", "Lay flat to dry", "Do not tumble dry"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "24",
+    "name": "Midi Slip Dress",
+    "price": 35999,
+    "currency": "PKR",
+    "description": "Elegant midi slip dress",
+    "longDescription": "A versatile piece that works for multiple occasions. The simple silhouette lets your styling shine. Perfect for any season.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1612336307429-8a88e8d08dbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Midi Slip Dress"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Silk Blend",
+    "careInstructions": ["Hand wash or gentle machine wash", "Air dry"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "25",
+    "name": "Experimental Vest",
+    "price": 28999,
+    "currency": "PKR",
+    "description": "Avant-garde vest design",
+    "longDescription": "Push boundaries with this experimental vest from Octa-West 2026. Unconventional cuts and proportions create visual intrigue.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Experimental Vest"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "Technical Blend",
+    "careInstructions": ["Professional care recommended"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "26",
+    "name": "Basic Turtleneck",
+    "price": 11999,
+    "currency": "PKR",
+    "description": "Classic turtleneck sweater",
+    "longDescription": "The timeless turtleneck. Perfect for any outfit. Premium cotton knit that moves with you.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Basic Turtleneck"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Cotton",
+    "careInstructions": ["Machine wash warm", "Tumble dry medium"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "27",
+    "name": "Embellished Lehenga",
+    "price": 58999,
+    "currency": "PKR",
+    "description": "Hand-embellished traditional lehenga",
+    "longDescription": "A celebration of craftsmanship. Each piece features intricate hand-embellishment. Perfect for weddings and festive occasions.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Embellished Lehenga"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Net with Hand Embroidery",
+    "careInstructions": ["Dry clean only", "Store carefully"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "28",
+    "name": "Linen Shorts",
+    "price": 13999,
+    "currency": "PKR",
+    "description": "Comfortable linen shorts",
+    "longDescription": "Perfect for warm weather. Breathable linen that feels good against the skin. Simple design works with anything.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Linen Shorts"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Linen",
+    "careInstructions": ["Machine wash warm", "Hang to dry"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "29",
+    "name": "Sequin Top",
+    "price": 27999,
+    "currency": "PKR",
+    "description": "Subtle sequin embellished top",
+    "longDescription": "Elegant sequin work that catches light without being loud. Perfect for evening events and special moments.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1595607774223-ef52624120d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Sequin Top"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Silk with Sequin",
+    "careInstructions": ["Hand wash gentle", "Air dry", "Avoid direct sunlight"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "30",
+    "name": "Modular Jacket",
+    "price": 48999,
+    "currency": "PKR",
+    "description": "Modular components jacket",
+    "longDescription": "Innovation in design. This jacket features modular components that can be mixed and matched. A piece for the future.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Modular Jacket"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Technical Blend",
+    "careInstructions": ["Machine wash gentle", "Lay flat to dry"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "31",
+    "name": "Denim Jacket",
+    "price": 29999,
+    "currency": "PKR",
+    "description": "Timeless denim jacket",
+    "longDescription": "Premium denim that only gets better with wear. The perfect casual layer. A wardrobe staple.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Denim Jacket"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Premium Denim",
+    "careInstructions": ["Machine wash cold", "Hang to dry", "Iron if needed"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "32",
+    "name": "Sheer Overlay Top",
+    "price": 18999,
+    "currency": "PKR",
+    "description": "Elegant sheer overlay piece",
+    "longDescription": "Layered sheer fabric creates depth and visual interest. Perfect for elegant occasions. Sophisticated and understated.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1608231387042-ec4143a165cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Sheer Overlay Top"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Silk and Chiffon",
+    "careInstructions": ["Hand wash delicate", "Air dry"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "33",
+    "name": "Cotton Joggers",
+    "price": 15999,
+    "currency": "PKR",
+    "description": "Premium cotton joggers",
+    "longDescription": "Comfort meets style. Premium cotton joggers with clean lines. Perfect for relaxed occasions without sacrificing elegance.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1542272604-787c62d465d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Cotton Joggers"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Premium Cotton",
+    "careInstructions": ["Machine wash warm", "Tumble dry"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "34",
+    "name": "Satin Robe",
+    "price": 42999,
+    "currency": "PKR",
+    "description": "Luxurious satin robe",
+    "longDescription": "Pure luxury in fabric form. Silky smooth satin drapes beautifully. Perfect for special moments and gifting.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1595777707802-c57702a40c0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Satin Robe"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "Free Size", "value": "free" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Satin",
+    "careInstructions": ["Hand wash", "Air dry", "Iron on low if needed"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "35",
+    "name": "Architectural Cardigan",
+    "price": 39999,
+    "currency": "PKR",
+    "description": "Architectural cut cardigan",
+    "longDescription": "Bold geometric design meets functionality. The structure creates visual impact. A statement piece from Octa-West 2026.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Architectural Cardigan"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "Wool Blend",
+    "careInstructions": ["Hand wash or gentle cycle", "Lay flat to dry"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "36",
+    "name": "Polo Shirt",
+    "price": 14999,
+    "currency": "PKR",
+    "description": "Classic polo shirt",
+    "longDescription": "Timeless polo with a contemporary fit. Perfect for casual or smart-casual settings. Premium cotton fabric.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1598877366746-a32402e53228?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Polo Shirt"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Premium Cotton",
+    "careInstructions": ["Machine wash warm", "Tumble dry medium"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "37",
+    "name": "Tulle Skirt",
+    "price": 32999,
+    "currency": "PKR",
+    "description": "Ethereal tulle skirt",
+    "longDescription": "Delicate tulle creates an ethereal silhouette. Perfect for special occasions and evenings. Light and airy.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1587863882854-4eb16b75e00b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Tulle Skirt"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Tulle",
+    "careInstructions": ["Hand wash delicate", "Air dry", "Store flat"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "38",
+    "name": "Henley Shirt",
+    "price": 12999,
+    "currency": "PKR",
+    "description": "Simple henley shirt",
+    "longDescription": "Versatile henley with clean lines. Works alone or as a layer. Premium fabric that breathes.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Henley Shirt"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Cotton",
+    "careInstructions": ["Machine wash warm", "Tumble dry medium"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "39",
+    "name": "Palazzo Pants",
+    "price": 23999,
+    "currency": "PKR",
+    "description": "Wide palazzo pants",
+    "longDescription": "Flowing palazzo silhouette with impeccable tailoring. Comfortable yet elegant. Works for multiple occasions.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1542272604-787c62d465d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Palazzo Pants"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "28", "value": "28" },
+          { "label": "30", "value": "30" },
+          { "label": "32", "value": "32" },
+          { "label": "34", "value": "34" },
+          { "label": "36", "value": "36" }
+        ]
+      }
+    ],
+    "fabricComposition": "Linen Blend",
+    "careInstructions": ["Machine wash warm", "Hang to dry"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "40",
+    "name": "Futuristic Pants",
+    "price": 41999,
+    "currency": "PKR",
+    "description": "Forward-thinking pants design",
+    "longDescription": "Experimental tailoring meets functionality. Unique proportions and construction. A visionary piece from Octa-West 2026.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1542272604-787c62d465d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Futuristic Pants"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Technical Blend",
+    "careInstructions": ["Machine wash gentle", "Lay flat to dry"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "41",
+    "name": "Striped Tee",
+    "price": 9999,
+    "currency": "PKR",
+    "description": "Classic striped t-shirt",
+    "longDescription": "The iconic striped tee. Simple yet perfect. Premium cotton that feels soft on the skin.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Striped Tee"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Organic Cotton",
+    "careInstructions": ["Machine wash warm", "Tumble dry"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "42",
+    "name": "Chiffon Blouse",
+    "price": 21999,
+    "currency": "PKR",
+    "description": "Flowing chiffon blouse",
+    "longDescription": "Lightweight and elegant. The flowing chiffon moves beautifully. Perfect for layering or as a statement piece.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1608231387042-ec4143a165cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Chiffon Blouse"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Chiffon",
+    "careInstructions": ["Hand wash gentle", "Air dry"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "43",
+    "name": "Khaki Chinos",
+    "price": 17999,
+    "currency": "PKR",
+    "description": "Versatile khaki chinos",
+    "longDescription": "The perfect neutral. Versatile khaki chinos that work with everything. Comfortable and refined.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1542272604-787c62d465d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Khaki Chinos"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "28", "value": "28" },
+          { "label": "30", "value": "30" },
+          { "label": "32", "value": "32" },
+          { "label": "34", "value": "34" },
+          { "label": "36", "value": "36" }
+        ]
+      }
+    ],
+    "fabricComposition": "Cotton Blend",
+    "careInstructions": ["Machine wash warm", "Tumble dry low"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "44",
+    "name": "Beaded Gown",
+    "price": 65999,
+    "currency": "PKR",
+    "description": "Hand-beaded evening gown",
+    "longDescription": "A masterpiece of craftsmanship. Every bead placed with intention. Designed for moments that matter most.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1595777707802-c57702a40c0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Beaded Gown"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Silk with Hand Beading",
+    "careInstructions": ["Dry clean only", "Professional care essential"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "45",
+    "name": "Deconstructed Blazer",
+    "price": 44999,
+    "currency": "PKR",
+    "description": "Deconstructed blazer design",
+    "longDescription": "Breaking the rules of tailoring. This deconstructed blazer redefines elegance. A statement piece for the visionary.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1593030103066-0093718efeb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Deconstructed Blazer"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Premium Wool",
+    "careInstructions": ["Professional dry clean", "Handle with care"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "46",
+    "name": "Linen Shirt",
+    "price": 19999,
+    "currency": "PKR",
+    "description": "Breathable linen shirt",
+    "longDescription": "Light and breathable linen shirt. Perfect for warm weather. Softens beautifully with each wash.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1598877366746-a32402e53228?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Linen Shirt"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Linen",
+    "careInstructions": ["Machine wash warm", "Hang to dry", "Iron as needed"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "47",
+    "name": "Cocktail Dress",
+    "price": 39999,
+    "currency": "PKR",
+    "description": "Sophisticated cocktail dress",
+    "longDescription": "Timeless elegance for evening events. The perfect dress for cocktail hours and dinner parties. Refined and understated.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1612336307429-8a88e8d08dbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Cocktail Dress"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Silk Blend",
+    "careInstructions": ["Hand wash or dry clean", "Air dry"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "48",
+    "name": "Sport Shorts",
+    "price": 11999,
+    "currency": "PKR",
+    "description": "Comfortable sport shorts",
+    "longDescription": "Designed for active lifestyle. Breathable fabric with functional design. Minimal yet practical.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Sport Shorts"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "Performance Cotton Blend",
+    "careInstructions": ["Machine wash warm", "Tumble dry"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "49",
+    "name": "Organza Top",
+    "price": 24999,
+    "currency": "PKR",
+    "description": "Delicate organza blouse",
+    "longDescription": "Crisp organza with subtle texture. Perfect for creating silhouettes and layering. Elegant and timeless.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1595607774223-ef52624120d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Organza Top"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Organza",
+    "careInstructions": ["Hand wash delicate", "Air dry"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "50",
+    "name": "Polymorphic Coat",
+    "price": 59999,
+    "currency": "PKR",
+    "description": "Transformable polymorphic coat",
+    "longDescription": "Innovation in outerwear. This coat can be worn multiple ways. The future of fashion design.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Polymorphic Coat"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Technical Wool",
+    "careInstructions": ["Professional care recommended", "Dry clean"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "51",
+    "name": "Tank Top",
+    "price": 7999,
+    "currency": "PKR",
+    "description": "Essential tank top",
+    "longDescription": "The basic essential. Premium cotton tank that works as layering or standalone. Timeless and versatile.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Tank Top"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Cotton",
+    "careInstructions": ["Machine wash warm", "Tumble dry"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "52",
+    "name": "Wrap Blouse",
+    "price": 22999,
+    "currency": "PKR",
+    "description": "Elegant wrap blouse",
+    "longDescription": "Flattering wrap style with refined details. Perfect for any occasion. Elegant and effortless.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1608231387042-ec4143a165cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Wrap Blouse"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Silk Cotton Blend",
+    "careInstructions": ["Hand wash or gentle machine", "Air dry"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "53",
+    "name": "Navy Blazer",
+    "price": 34999,
+    "currency": "PKR",
+    "description": "Classic navy blazer",
+    "longDescription": "The wardrobe essential. A perfectly tailored navy blazer that works with everything. Timeless elegance.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1593030103066-0093718efeb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Navy Blazer"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Wool",
+    "careInstructions": ["Dry clean recommended", "Professional care"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "54",
+    "name": "Sheath Dress",
+    "price": 36999,
+    "currency": "PKR",
+    "description": "Form-fitting sheath dress",
+    "longDescription": "The silhouette that flatters everyone. Elegantly fitted sheath dress for evening wear. Sophisticated and timeless.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1612336307429-8a88e8d08dbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Sheath Dress"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Stretch Fabric Blend",
+    "careInstructions": ["Hand wash gentle", "Air dry"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "55",
+    "name": "Avant Garde Dress",
+    "price": 51999,
+    "currency": "PKR",
+    "description": "Bold avant-garde dress",
+    "longDescription": "Push boundaries. Experimental silhouettes and proportions. For those who dare to be different.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1567270671170-fdc10a5bf831?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Avant Garde Dress"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Premium Blend",
+    "careInstructions": ["Gentle care required", "Professional cleaning"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  },
+  {
+    "id": "56",
+    "name": "Canvas Jacket",
+    "price": 27999,
+    "currency": "PKR",
+    "description": "Durable canvas jacket",
+    "longDescription": "Rugged yet refined. Premium canvas that improves with age. Perfect for layering and casual wear.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Canvas Jacket"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" },
+          { "label": "XL", "value": "xl" }
+        ]
+      }
+    ],
+    "fabricComposition": "100% Canvas",
+    "careInstructions": ["Machine wash warm", "Hang to dry"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "57",
+    "name": "Lace Top",
+    "price": 23999,
+    "currency": "PKR",
+    "description": "Delicate lace top",
+    "longDescription": "Intricate lace detailing. Feminine and elegant. Perfect for special occasions or layering.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1595607774223-ef52624120d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Lace Top"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "XS", "value": "xs" },
+          { "label": "S", "value": "s" },
+          { "label": "M", "value": "m" },
+          { "label": "L", "value": "l" }
+        ]
+      }
+    ],
+    "fabricComposition": "Lace with Silk Lining",
+    "careInstructions": ["Hand wash delicate", "Air dry", "Store carefully"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "58",
+    "name": "Chino Shorts",
+    "price": 14999,
+    "currency": "PKR",
+    "description": "Classic chino shorts",
+    "longDescription": "Perfect for warm weather. Classic chino shorts with a clean fit. Versatile and comfortable.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Chino Shorts"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "28", "value": "28" },
+          { "label": "30", "value": "30" },
+          { "label": "32", "value": "32" },
+          { "label": "34", "value": "34" },
+          { "label": "36", "value": "36" }
+        ]
+      }
+    ],
+    "fabricComposition": "Cotton Chino",
+    "careInstructions": ["Machine wash warm", "Tumble dry low"],
+    "inStock": true,
+    "collection": "pret"
+  },
+  {
+    "id": "59",
+    "name": "Beaded Shawl",
+    "price": 19999,
+    "currency": "PKR",
+    "description": "Intricately beaded shawl",
+    "longDescription": "Traditional craftsmanship meets modern styling. Hand-beaded shawl perfect for any occasion. A versatile luxury piece.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1604815584769-0a42e61c9d53?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Beaded Shawl"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Style",
+        "type": "color",
+        "options": [
+          { "label": "Black", "value": "black" },
+          { "label": "Burgundy", "value": "burgundy" },
+          { "label": "Silver", "value": "silver" }
+        ]
+      }
+    ],
+    "fabricComposition": "Silk with Hand Beading",
+    "careInstructions": ["Hand wash gentle", "Air dry", "Handle beads carefully"],
+    "inStock": true,
+    "collection": "desire"
+  },
+  {
+    "id": "60",
+    "name": "Sculptural Poncho",
+    "price": 46999,
+    "currency": "PKR",
+    "description": "Sculptural art piece poncho",
+    "longDescription": "Fashion as art. This sculptural poncho makes a bold statement. An investment piece from Octa-West 2026.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1539533057440-7814a65d4969?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "alt": "Sculptural Poncho"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Size",
+        "type": "size",
+        "options": [
+          { "label": "Free Size", "value": "free" }
+        ]
+      }
+    ],
+    "fabricComposition": "Premium Wool Blend",
+    "careInstructions": ["Professional dry clean", "Handle with care"],
+    "inStock": true,
+    "collection": "octa-west-2026"
+  }
+]

@@ -29,7 +29,7 @@ const slides: Slide[] = [
     subtitle: "Everyday silhouettes, elevated",
     image: "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
     cta: "Explore Pret",
-    href: "/pret",
+    href: "/category/pret",
   },
   {
     id: "desire",
@@ -37,7 +37,7 @@ const slides: Slide[] = [
     subtitle: "Evenings with intention",
     image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
     cta: "Explore Desire",
-    href: "/desire",
+    href: "/category/desire",
   },
   {
     id: "octa-west-2026",
@@ -45,7 +45,7 @@ const slides: Slide[] = [
     subtitle: "A future collection",
     image: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
     cta: "Explore 2026",
-    href: "/octa-west-2026",
+    href: "/category/octa-west-2026",
   },
 ];
 
